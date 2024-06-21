@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Exercicios  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade1_b</title>
+</head>
+
+<body>
+
+</body>
+
+<!-- Elaborar um programa para uma pizzaria, o qual leia o valor total de
+uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser
+pago por cliente.
+Exemplo:
+Valor da Conta R$: 90.00
+Número de Clientes: 3
+Valor por cliente R$: 30.00
+ -->
+
+<!-- [Sim] Resolvido? -->
+
+<script>
+
+    // Entrada de dados
+
+    var conta = Number(prompt("Informe o valor da conta!"));
+    var pessoas = Number(prompt("Informe o número de pessoas"));
+
+    // Processamento de dados
+
+    var divisao = conta / pessoas;
+
+    // Exibe as informações
+
+    alert(`Valor da conta: R$ ${conta.toFixed(2)}` + `\nNúmero de cliente: ${pessoas}` + `\nValor por cliente: R$ ${divisao.toFixed(2)}`)
+
+</script>
+
+</html>

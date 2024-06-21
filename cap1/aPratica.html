@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Exercicios  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+</head>
+
+<body>
+
+</body>
+<!-- Treinando JavaScript através dos conceitos aprendidos no livro com os exemplos -->
+
+<!-- Exibir uma mensagem na tela-->
+
+<script>
+    // 1 - Exiba uma mensagem na tela do navegador
+
+    alert('Seja muito bem vindo a programação web!');
+
+    // 2 - Receba o nome de usuário e lhe de boas vindas
+
+    var nome = prompt("Digite o seu nome aqui!");
+
+    alert(`Olá, ` + nome + `, seja bem vindo a essa jornada para aprender JavaScript!`);
+
+    // 3 - Operações envolvendo strings e números
+
+    var a = "1250";
+    var b = a * 2;
+    var c = a / 2;
+    var d = a - c;
+    var e = a + a;
+
+    alert(`Primeira operação: ` + b + `\nSegunda operação: ` + c + `\nTerceira operação: ` + d + `\nQuarta operação: ` + e);
+
+    // 4 - Operações envolvendo strings e números (convertendo strings)
+
+    var a = "7500";
+    var b = a * 5;
+    var c = a / 5;
+    var d = a - 2000;
+    var e = a + d;
+    var f = Number(a);
+    var g = f + d;
+
+    alert(`1° Operação: ` + b + `\n2° Operação: ` + c + `\n3° Operação: ` + d + `\n4° Operação: ` + e + `\n5° Operação: ` + g);
+
+    // 5 - Exibindo uma variável que não recebeu uma atribuição de valor
+
+    var comida = "Lasanha";
+    var quantidade = 2;
+    var pronta = true;
+    var comer;
+
+    alert(comida + "\n" + quantidade + "\n" + pronta + "\n" + comer);
+
+    // 6 - Cálculo do dobro de um número utilizando a multiplicação
+
+    var numero = Number(prompt(`Digite um número e descubra o seu dobro!!`));
+    var dobro = numero * 2;
+
+    alert(`O dobro é: ` + dobro);
+
+    // 7 - Cálculo do dobro de um número utilizando a adição
+
+    var numero = Number(prompt(`Digite um numero e descubra o seu dobro!`));
+    var dobro =  numero + numero;
+
+    alert(`O dobro é: ` + dobro);
+
+    // 8 - Cálculo da soma de dois números fornecidos pelo usuário
+
+    var numero1 = Number(prompt(`Digite o primeiro número para a soma!!`));
+    var numero2 = Number(prompt(`Digite o segundo número para a soma!!`));
+    var soma = numero1 + numero2;
+
+    alert(`A soma entre os número é: ` + soma);
+
+    // 9 - Cálculo do valor de um jantar incluindo os 10% do garçom
+
+    var janta = Number(prompt`Digite o valor do jantar!`);
+    var taxa = janta * (10 / 100);
+    var total = janta + taxa;
+
+    alert(`Jantar R$: ` + janta + `\nTaxa de 10% R$: ` + taxa + `\nTotal R$: ` + total);
+
+    // 10 - Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas
+
+    var dias = Number(prompt(`Digite o total de dias viajados!`));
+    var horas = Number(prompt(`Digite o total de horas viajadas!`));
+    var conversao = dias * 24;
+    var total = conversao + horas;
+
+    alert(`O total de horas viajadas foi: ${total} horas`);
+
+
+
+
+</script>
+
+</html>

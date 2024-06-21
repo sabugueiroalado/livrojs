@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Exercicios  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1_9</title>
+</head>
+
+<body>
+
+</body>
+
+<!-- Cálculo do valor de um jantar incluindo os 10% do garçom -->
+
+<script>
+
+    // Lê o valor do jantar a ser pago
+
+    var jantar = Number(prompt("Valor do jantar R$: "));
+
+    // Calcula os 10% do garçom mais o jantar
+
+    var taxa = 10 / 100;
+    var valorTaxa = jantar * taxa;
+    var valorJanta = jantar + valorTaxa;
+
+    // Exibe o valor a ser pago
+
+    alert("Taxa do garçom R$: " + valorTaxa.toFixed(2) + "\nTotal do jantar R$: " + valorJanta.toFixed(2));
+
+</script>
+
+</html>

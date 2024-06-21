@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 2</title>
+</head>
+
+<body>
+
+</body>
+
+<!-- Treinando JavaScript através dos conceitos aprendidos no livro com os exemplos -->
+
+<!-- Exibir uma mensagem na tela-->
+<script>
+
+// Elaborar um programa que leia um número. Calcule e informe os seus
+// vizinhos, ou seja, o número anterior e posterior.
+// Exemplo:
+// Número: 15
+// Vizinhos: 14 e 16
+
+var numero = Number(prompt(`Digite um numero e descubra os seus vizinhos`));
+var antecessor = numero - 1;
+var sucessor = numero + 1;
+
+alert(`O vizinhos de ${numero} são:` + `\nAntecessor: ${antecessor}` + `\nSucessor: ${sucessor}`);
+
+
+// Elaborar um programa para uma pizzaria, o qual leia o valor total de
+// uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser
+// pago por cliente.
+// Exemplo:
+// Valor da Conta R$: 90.00
+// Número de Clientes: 3
+// Valor por cliente R$: 30.00
+
+var conta = Number(prompt(`Digite o valor da conta!`));
+var clientes = Number(prompt(`Digite a quantidade de clientes!`));
+var total = conta / clientes;
+
+alert(`Conta R$: ${conta}` + `\nQuantidade de clientes: ${clientes}` + `\nTotal a pagar R$: ${total}`);
+
+// Elaborar um programa para uma loja, o qual leia o preço de um produto e
+// informe as opções de pagamento da loja. Calcule e informe o valor para
+// pagamento à vista com 10% de desconto e o valor em 3x.
+// Exemplo:
+// Preço R$: 60.00
+// À Vista R$: 54.00
+// Ou 3x de R$: 20.00
+
+var valor = Number(prompt(`Digite o valor do produto`));
+var taxa = valor * (10 / 100);
+var desconto = valor - taxa;
+var parcelado = valor / 3;
+
+alert(`Preço R$: ${valor.toFixed(2)}` + `\nÀ vista R$: ${desconto.toFixed(2)}` + `\nParcelado R$: ${parcelado.toFixed(2)}`);
+
+// Elaborar um programa que leia 2 notas de um aluno em uma disciplina.
+// Calcule e informe a média das notas.
+// Exemplo:
+// 1ª Nota: 7.0
+// 2ª Nota: 8.0
+// Média: 7.5
+
+var nota1 = Number(prompt(`Digite a primeira nota`));
+var nota2 = Number(prompt(`Digite a segunda nota`));
+var media = (nota1 + nota2) / 2;
+
+alert(`1° nota: ${nota1}` + `\n2° nota: ${nota2}` + `\nMédia: ${media}`);
+
+</script>
+
+</html>
