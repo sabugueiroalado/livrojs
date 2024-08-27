@@ -1,0 +1,36 @@
+Ex 6 - Em um determinado momento do dia, apenas notas de 10, 50 e 100 estão
+disponíveis em um terminal de caixa eletrônico. Elaborar um programa que
+leia um valor de saque de um cliente, verique sua validade (ou seja, se pode
+ser pago com as notas disponíveis) e informe o número mínimo de notas de
+100, 50 e 10 necessárias para pagar esse saque.
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex3_6</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h1>-- Programa: Caixa Registradora --</h1>
+        <div>
+            <img src="styles/assets/ex3_6.png" alt="">
+            <p>Valor R$:
+                <input type="text" id="inValor" placeholder="Informe o valor" class="texto">
+            </p>
+            <p>
+                <input type="button" id="btSaque" value="Sacar Valor" class="botao">
+                <input type="button" id="btNovoSaque" value="Novo Saque" class="botao">
+            </p>
+            <h3 id="outNotas100"></h3>
+            <h3 id="outNotas50"></h3>
+            <h3 id="outNotas10"></h3>
+        </div>
+    </section>
+</body>
+<script src="js/Ex3_6.js"></script>
+
+</html>

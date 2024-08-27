@@ -1,0 +1,41 @@
+d) Elaborar um programa que leia três lados e verique se eles podem ou não
+formar um triângulo. Para formar um triângulo, um dos lados não pode ser
+maior que a soma dos outros dois. Caso possam formar um triângulo, exiba
+também qual o tipo do triângulo: Equilátero (3 lados iguais), Isósceles (2
+lados iguais) e Escaleno (3 lados diferentes). A Figura 3.10 exibe um exemplo
+de execução do exercício.
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades3_D</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h1>-- Programa: Tipos de triângulos --</h1>
+        <div>
+            <img src="styles/assets/exerc.png" alt="">
+            <p>Lado A:
+                <input type="text" id="inLadoA" placeholder="Informe o 1º Lado" class="texto">
+            </p>
+            <p>Lado B:
+                <input type="text" id="inLadoB" placeholder="Informe o 2º Lado" class="texto">
+            </p>
+            <p>Lado C:
+                <input type="text" id="inLadoC" placeholder="Informe o 3º Lado" class="texto">
+            </p>
+            <p>
+                <input type="button" id="btDescobrir" value="Descobrir" class="botao">
+            </p>
+            <h3 id="outVerificacao"></h3>
+            <h3 id="outTipo"></h3>
+        </div>
+    </section>
+</body>
+<script src="js/Atividade3_D.js"></script>
+
+</html>

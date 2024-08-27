@@ -1,0 +1,61 @@
+Exemplos 
+
+EX 1 - Crie um programa que leia o nome e as notas de um aluno, calcule a média das notas, 
+exiba a média do aluno e mostre uma mensagem indicando se o aluno foi aprovado, 
+reprovado ou está em exame. Se a média das notas for igual ou superior a 7.0, 
+o aluno é considerado aprovado e a mensagem “Parabéns [Nome do Aluno], 
+você foi aprovado(a)!” deve ser exibida. Se a média for menor que 7.0 mas maior ou igual a 4.0, 
+o aluno está em exame e a mensagem “[Nome do Aluno], você está em exame.” deve ser exibida. 
+Caso contrário, o aluno é considerado reprovado e a mensagem “Ops [Nome do Aluno], você foi reprovado(a).” deve ser exibida.
+
+Ex 2 - Crie um programa que leia o nome, a altura e o sexo de uma pessoa, calcule o peso ideal com base nas fórmulas: 
+para homens, 22 * (altura²) e para mulheres, 21 * (altura²) e mostre o resultado do peso ideal na tela.
+
+Ex 3 - Crie um script que leia o bairro do cliente, informe o valor da taxa de entrega de um medicamento conforme o bairro do cliente,
+e utilize o comando switch...case para definir as condições. 
+Se o bairro for "Fundos" ou "Rio Caveiras", a taxa de entrega é "R$ 5,00". 
+Para "Centro", a taxa é "R$ 3,00". Para "Bela Vista", a taxa é "R$ 4,00". Para qualquer outro bairro, a taxa é "R$ 7,00".
+
+Ex 4 - Sabendo que o fuso horário da França em relação ao Brasil é de + 5 horas
+(no horário de verão na França), elaborar um programa que leia a hora no
+Brasil e informe a hora na França.
+
+Ex 5 -  Elaborar um programa que leia um número e calcule sua raiz quadrada.
+Caso a raiz seja exata (quadrados perfeitos), informá-la, caso contrário,
+informe: Não há raiz exata para ...
+
+Ex 6 -  Em um determinado momento do dia, apenas notas de 10, 50 e 100 estão
+disponíveis em um terminal de caixa eletrônico. Elaborar um programa que
+leia um valor de saque de um cliente, verique sua validade (ou seja, se pode
+ser pago com as notas disponíveis) e informe o número mínimo de notas de
+100, 50 e 10 necessárias para pagar esse saque.
+
+Atividades
+
+a) Crie um programa que leia um número e determine se ele é par ou ímpar. 
+Se o número for divisível por 2 sem deixar resto, ele deve ser classificado como par e a mensagem “O número [número] é par.” 
+deve ser exibida. Caso contrário, ele deve ser classificado como ímpar e a mensagem “O número [número] é ímpar.”
+
+b) Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. 
+Se a velocidade for inferior ou igual à permitida, exiba “Sem Multa”. 
+Se a velocidade for de até 20% maior que a permitida, exiba “Multa Leve”.
+E, se a velocidade for superior a 20% da velocidade permitida, exiba “Multa Grave”.
+
+c) Elaborar um programa para simular um parquímetro, o qual leia o valor
+de moedas depositado em um terminal de estacionamento rotativo. O
+programa deve informar o tempo de permanência do veículo no local e o
+troco (se existir). Se o valor for inferior ao
+tempo mínimo, exiba a mensagem: “Valor Insuciente”. Considerar os
+valores/tempos da Tabela(o máximo é 120 min).
+
+Valor R$: 1.00 - 1.75 - 3.00
+Tempo (min): 30 - 60 - 120
+
+d) Elaborar um programa que leia três lados e verique se eles podem ou não
+formar um triângulo. Para formar um triângulo, um dos lados não pode ser
+maior que a soma dos outros dois. Caso possam formar um triângulo, exiba
+também qual o tipo do triângulo: Equilátero (3 lados iguais), Isósceles (2
+lados iguais) e Escaleno (3 lados diferentes). A Figura 3.10 exibe um exemplo
+de execução do exercício.
+
+

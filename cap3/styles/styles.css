@@ -1,0 +1,79 @@
+body {
+    background-color: #FFF2D7;
+    color: #D8AE7E;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.menu div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px #D8AE7E;
+    width: 650px;
+    background-color: #FFE0B5;
+    border-radius: 50px;
+}
+
+.menu h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.menu img {
+    width: 200px;
+    padding: 20px;
+}
+
+.menu p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.botao {
+    background-color: #D8AE7E;
+    color: #FFF2D7;
+    font-size: 1.360rem;
+    font-weight: 200;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.texto {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 1.250rem;
+    font-weight: 400;
+    background-color: #FFF2D7;
+    color: #D8AE7E;
+    box-shadow: #D8AE7E 0px 5px;
+    transition: all 0.5s;
+}
+
+.texto:focus {
+    border-radius: 10px;
+}
+
+.texto::placeholder {
+    color: #D8AE7E;
+}
+
+.menu h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FF8343
+}

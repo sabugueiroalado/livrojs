@@ -1,0 +1,43 @@
+EX 1 - Crie um programa que leia o nome e as notas de um aluno, calcule a média das notas,
+exiba a média do aluno e mostre uma mensagem indicando se o aluno foi aprovado,
+reprovado ou está em exame. Se a média das notas for igual ou superior a 7.0,
+o aluno é considerado aprovado e a mensagem “Parabéns [Nome do Aluno],
+você foi aprovado(a)!” deve ser exibida. Se a média for menor que 7.0 mas maior ou igual a 4.0,
+o aluno está em exame e a mensagem “[Nome do Aluno], você está em exame.” deve ser exibida.
+Caso contrário, o aluno é considerado reprovado e a mensagem “Ops [Nome do Aluno], você foi reprovado(a).” deve ser
+exibida.
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex3_1</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h1>-- Programa: Cálculo Média do Aluno --</h1>
+        <div>
+            <p>Aluno:
+                <input type="text" id="inNome" placeholder="Informe o nome do aluno" class="texto">
+            </p>
+            <p>1º Nota:
+                <input type="text" id="inNota1" placeholder="Informe a 1º Nota" class="texto">
+            </p>
+            <p>2º Nota:
+                <input type="text" id="inNota2" placeholder="Informe a 2º Nota" class="texto">
+            </p>
+            <p>
+                <input type="button" id="btCalcular" value="Calcular" class="botao">
+                <input type="button" id="btLimpar" value="Limpar Campos" class="botao">
+            </p>
+            <h3 id="outMedia"></h3>
+            <h3 id="outResultado"></h3>
+        </div>
+    </section>
+</body>
+<script src="js/Ex3_1.js"></script>
+
+</html>

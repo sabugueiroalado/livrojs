@@ -1,0 +1,35 @@
+b) Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor.
+Se a velocidade for inferior ou igual à permitida, exiba “Sem Multa”.
+Se a velocidade for de até 20% maior que a permitida, exiba “Multa Leve”.
+E, se a velocidade for superior a 20% da velocidade permitida, exiba “Multa Grave”.
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades3_B</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h1>-- Programa: Velocidade Permitida --</h1>
+        <div>
+            <img src="styles/assets/exerc.png" alt="">
+            <p>Velocidade Permitida:
+                <input type="text" id="inVelocidadePermitida" placeholder="Informe a velocidade" class="texto">
+            </p>
+            <p>Velocidade Condutor:
+                <input type="text" id="inVelocidadeCondutor" placeholder="Informe a velocidade" class="texto">
+            </p>
+            <p>
+                <input type="button" id="btSituacao" value="Situação" class="botao">
+            </p>
+            <h3 id="outSituacao"></h3>
+        </div>
+    </section>
+</body>
+<script src="js/Atividade3_B.js"></script>
+
+</html>

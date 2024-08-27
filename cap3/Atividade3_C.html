@@ -1,0 +1,38 @@
+c) Elaborar um programa para simular um parquímetro, o qual leia o valor
+de moedas depositado em um terminal de estacionamento rotativo. O
+programa deve informar o tempo de permanência do veículo no local e o
+troco (se existir). Se o valor for inferior ao
+tempo mínimo, exiba a mensagem: “Valor Insuciente”. Considerar os
+valores/tempos da Tabela(o máximo é 120 min).
+
+Valor R$: 1.00 - 1.75 - 3.00
+Tempo (min): 30 - 60 - 120
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades3_C</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h1>-- Programa: Parquímetro --</h1>
+        <div>
+            <img src="styles/assets/exerc.png" alt="">
+            <p>Valor:
+                <input type="text" id="inValor" placeholder="Informe o valor" class="texto">
+            </p>
+            <p>
+                <input type="button" id="btDeposito" value="Depositar" class="botao">
+            </p>
+            <h3 id="outTempo"></h3>
+            <h3 id="outTroco"></h3>
+        </div>
+    </section>
+</body>
+<script src="js/Atividade3_C.js"></script>
+
+</html>
