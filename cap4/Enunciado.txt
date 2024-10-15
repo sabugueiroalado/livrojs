@@ -1,0 +1,46 @@
+Exemplos
+
+EX 1 - Crie um programa que leia um número inteiro e, utilizando um laço for, exiba a tabuada desse número de 1 a 10. 
+Por exemplo, se o usuário digitar o número 5, o programa deve exibir: A tabuada de 5.
+
+EX 2 - Crie um programa que leia um número inteiro e, utilizando um laço for decrescente, exiba uma contagem regressiva desse número até 1. 
+O resultado deve ser exibido em uma única linha, usando a tag h3 para destacar a lista de números.
+
+EX 3 - Crie um programa que solicite ao usuário a entrada de um número inteiro positivo. 
+O programa deve garantir que o valor informado seja válido (não pode ser 0 nem algo que não seja um número). 
+Para isso, utilize um laço do..while que continuará pedindo a entrada até que o usuário forneça um número válido.
+Após a validação, o programa deve exibir todos os números pares entre 1 e o número informado. 
+Utilize um laço for para percorrer e acumular os números pares, e exiba-os em uma mensagem de alerta, com os números separados por vírgula.
+
+EX 4 - Crie um programa que leia números inteiros do usuário e, para cada número, exiba:
+
+O dobro do número, se ele for par.
+O triplo do número, se ele for ímpar.
+
+O programa deve continuar pedindo números até que o usuário informe o valor 0 ou um valor inválido. 
+Ao informar 0 ou um valor inválido, o programa deve perguntar ao usuário se ele deseja realmente encerrar a execução. 
+Caso o usuário confirme a saída, o programa termina. Caso contrário, o laço recomeça, solicitando novamente um número.
+Use os comandos break para sair do laço quando o usuário confirmar que deseja encerrar, 
+e continue para reiniciar o laço quando o valor for inválido, mas o usuário optar por continuar.
+
+EX 5 - Crie um programa que permita ao usuário registrar várias contas a serem pagas. 
+Para cada conta, o programa deve solicitar uma descrição e um valor, e então exibir uma lista com todas as contas registradas até o momento, 
+bem como o número total de contas e o valor total acumulado.
+
+Para isso, utilize:
+
+Um contador, que será incrementado cada vez que uma nova conta for registrada, para contar o número total de contas.
+Um acumulador, que somará o valor de cada conta registrada ao valor total.
+
+EX 6 - Crie um programa que leia um número inteiro do usuário e determine se ele é um número primo. 
+Um número primo é aquele que possui exatamente dois divisores: 1 e ele mesmo.
+
+Para isso, o programa deve utilizar:
+
+Um contador, que será incrementado cada vez que o número for divisível por outro número.
+Um laço que percorra todos os números entre 1 e o número informado, verificando quantos divisores ele possui.
+
+
+Atividades
+
+a)
