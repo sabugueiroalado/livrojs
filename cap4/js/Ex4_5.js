@@ -1,42 +1,32 @@
-// Contadoreseacumuladores
+var numeroDeContas = 0;
+var totalDeContas = 0;
 
-// Declarando variáveis globais, contadores e acumulares
-var numContas = 0;
-var valorTotal = 0;
+var resposta = '';
 
-// Variável string que acumula as contas
-var resposta = ''
-
-function registrarConta() {
+function contasDoMes() {
     var inInfo = document.getElementById('inInfo');
     var inValor = document.getElementById('inValor');
-    var outListaContas = document.getElementById('outListaContas');
-    var outTotal = document.getElementById('outTotal');
+    var outInfo = document.getElementById('outInfo');
+    var outValor = document.getElementById('outValor');
 
     var info = inInfo.value;
     var valor = Number(inValor.value);
 
     if (info == '' || valor == 0 || isNaN(valor)) {
-        alert('Informe os dados corretamente...')
+        alert('Informe corretamente os dados solicitados');
         inInfo.focus();
         inInfo.value = '';
         inValor.value = '';
         return;
     }
 
-    // Adiciona valores ao contador e acumulador
-
-    numContas++;
-    valorTotal = valorTotal + valor;
-
-    // Concatena as contas
+    numeroDeContas++;
+    totalDeContas = totalDeContas + valor;
 
     resposta = `${resposta + info} - R$: ${valor.toFixed(2)}\n`;
 
-    outListaContas.textContent = `${resposta} ----------------------------------------------`;
-    outTotal.textContent = `${numContas} Conta(s) - Total R$: ${valorTotal.toFixed(2)}`;
-
-    // Limpa os campos e posiciona o cursor em inInfo
+    outInfo.textContent = `${resposta} ------------------------------------------`;
+    outValor.textContent = `${totalDeContas} Conta(s) - Valor R$: ${totalDeContas.toFixed(2)}`;
 
     inInfo.value = '';
     inValor.value = '';
@@ -44,4 +34,4 @@ function registrarConta() {
 }
 
 var btRegistrar = document.getElementById('btRegistrar');
-btRegistrar.addEventListener('click', registrarConta);
+btRegistrar.addEventListener('click', contasDoMes);

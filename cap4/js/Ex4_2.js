@@ -4,14 +4,14 @@ function decremento() {
 
     var numero = Number(inNumero.value);
 
-    if (numero == '' || isNaN(numero)) {
-        alert('Informe um número válido...');
+    if (numero == 0 || isNaN(numero)) {
+        alert('Informe um número válido');
         inNumero.focus();
         inNumero.value = '';
         return;
     }
 
-    var ordem = `Entre 1 e ${numero}: ${numero}`;
+    var ordem = `Numeros entre 1 e ${numero}: ${numero}`;
 
     for (var i = numero - 1; i > 0; i--) {
         ordem = `${ordem}, ${i}`;

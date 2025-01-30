@@ -43,4 +43,28 @@ Um laço que percorra todos os números entre 1 e o número informado, verifican
 
 Atividades
 
-a)
+a) Elaborar um programa que leia o nome de uma fruta e um número. O
+programa deve repetir a exibição do nome da fruta, de acordo com o número
+informado. Utilize o “*” para separar os nomes. A Figura 4.15 ilustra a
+execução do programa.
+
+b) Digamos que o número de chinchilas de uma fazenda triplica a cada ano,
+após o primeiro ano. Elaborar um programa que leia o número inicial de
+chinchilas e anos e informe ano a ano o número médio previsto de chinchilas
+da fazenda. Validar a entrada para que o número inicial de chinchilas seja
+maior ou igual a 2 (um casal). A Figura 4.16 exibe a página com um exemplo
+de saída do programa.
+
+c) Elaborar um programa que leia um número e verique se ele é ou não
+perfeito. Um número dito perfeito é aquele que é igual à soma dos seus
+divisores inteiros (exceto o próprio número). O programa deve exibir os
+divisores do número e a soma deles. A Figura 4.17 exibe a página do
+programa com um exemplo de número perfeito.
+
+d) Elaborar um programa que leia um número e exiba estrelas na página, em
+linhas diferentes. A cada nova linha, o número de estrelas deve ser
+incrementado. Observação: caso você informe um valor alto, as linhas
+podem ultrapassar o tamanho da imagem e se alinhar à margem esquerda
+da página. Para evitar que isso ocorra, crie uma nova classe no arquivo
+estilos.css, que dena uma utuação à direita para essa imagem. A Figura
+4.18 ilustra uma execução do programa desse exercício.

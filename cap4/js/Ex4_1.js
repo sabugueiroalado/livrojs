@@ -4,20 +4,20 @@ function tabuada() {
 
     var numero = Number(inNumero.value);
 
-    if (numero == '' || isNaN(numero)) {
-        alert('Informe um número válido...');
+    if (numero == 0 || isNaN(numero)) {
+        alert('Informe um número válido');
         inNumero.focus();
         inNumero.value = '';
         return;
     }
 
-    var resultado = '';
+    var resposta = '';
 
-    for (var i = 1; i <= 10; i++) {
-        resultado = `${resultado + numero} x ${i} = ${numero * i}\n`;
+    for (var i = 1; i <= numero; i++) {
+        resposta = `${resposta + numero} x ${i} = ${numero * i}\n`;
     }
 
-    outTabuada.textContent = resultado;
+    outTabuada.textContent = resposta;
 }
 
 var btDescobrir = document.getElementById('btDescobrir');

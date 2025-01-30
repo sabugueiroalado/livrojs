@@ -1,29 +1,31 @@
-function verificarPrimo() {
+function numerosPrimos() {
     var inNumero = document.getElementById('inNumero');
     var outResultado = document.getElementById('outResultado');
 
     var numero = Number(inNumero.value);
 
-    if (numero == '' || isNaN(numero)) {
-        alert('Informe um número válido');
+    if (numero == 0 || isNaN(numero)) {
+        alert('Informe um valor válido');
         inNumero.focus();
-        inNumero.value = '';
+        inNumero.value;
         return;
     }
 
-    var numerosDivisores = 0; //Declara e inicializa o contador
+    var divisores = 0;
 
     for (var i = 1; i <= numero; i++) {
         if (numero % i == 0) {
-            numerosDivisores++; //Incrementa o contador se a condição for true
+            divisores++;
         }
     }
 
-    if (numerosDivisores == 2) {
-        outResultado.textContent = `${numero}, é PRIMO`;
+    if (divisores == 2) {
+        outResultado.textContent = `[ ${numero} ] é PRIMO`;
     } else {
-        outResultado.textContent = `${numero}, NÃO é primo`;
+        outResultado.textContent = `[ ${numero} ] NÃO é primo`;
+
     }
 }
+
 var btVerificar = document.getElementById('btVerificar');
-btVerificar.addEventListener('click', verificarPrimo);  
+btVerificar.addEventListener('click', numerosPrimos);

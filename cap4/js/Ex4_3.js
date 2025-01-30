@@ -1,18 +1,18 @@
 do {
-    var num = Number(prompt('Informe um número: '));
-    if (num == 0 || isNaN(num)) {
+    var numero = Number(prompt('Digite um número'));
+    if (numero == 0 || isNaN(numero)) {
         alert('Informe um número válido');
     }
-} while (num == 0 || isNaN(num));
+} while (numero == 0 || isNaN(numero));
 
-var pares = `Pares entre 1 e ${num}: `;
+var pares = `Pares entre 1 e ${numero}: `;
 
-if(num > 1) {
-    pares = pares + '2';
-} 
-
-for (var i = 4; i <= num; i = i + 2) {
-    pares = pares + ',' + i;
+if (numero > 1) {
+    pares = `${pares} 2`;
 }
 
-alert(pares);
+for (var i = 4; i <= numero; i = i + 2) {
+    pares = `${pares}, ${i}`;
+}
+
+alert(`${pares}.`);
