@@ -13,7 +13,7 @@ function tabuada() {
 
     var resposta = '';
 
-    for (var i = 1; i <= numero; i++) {
+    for (var i = 1; i <= 10; i++) {
         resposta = `${resposta + numero} x ${i} = ${numero * i}\n`;
     }
 
